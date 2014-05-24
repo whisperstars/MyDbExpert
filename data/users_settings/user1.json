@@ -1,0 +1,9 @@
+{
+success: true,
+"auth" :  "qwerty",
+"hosts" : [
+	{"host" : "localhost", "port" : "3306"},
+	{"host" : "192.168.1.5", "port" : "3306"},
+	{"host" : "10.1.2.3", "port" : "3306"}
+]
+}

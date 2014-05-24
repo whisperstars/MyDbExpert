@@ -1,0 +1,367 @@
+.btn-add {
+    background-image: url( ../images/BtnAdd16.png ) !important;
+}
+.btn-folder_add {
+    background-image: url( ../images/FolderAdd16.png ) !important;
+}
+.btn-copy {
+    background-image: url( ../images/NewDocByCopy16.png ) !important;
+}
+.btn-edit2{
+    background-image: url( ../images/BtnEdit16.png ) !important;
+}
+.btn-edit{
+    background-image: url( ../images/pencil16.png ) !important;
+}
+.btn-edit-small{
+    background-image: url( ../images/pencil_small.png ) !important;
+}
+.btn-remove {
+    background-image: url( ../images/BtnRemove16.png ) !important;
+}
+.btn-help {
+    background-image: url( ../images/BtnHelp16.png ) !important;
+}
+.btn-search {
+    background-image: url( ../images/BtnSearch16.png ) !important;
+}
+.btn-printer {
+    background-image: url( ../images/BtnPrinter16.png ) !important;
+}
+.btn-folder{
+    background-image: url( ../images/Folder16.png ) !important;
+}
+.btn-document{
+    background-image: url( ../images/Document16.png ) !important;
+}
+.btn-new_document{
+    background-image: url( ../images/NewDocument16.png ) !important;
+}
+.btn-arrowleft{
+		 background-image: url( ../images/ArrowLeft16.png ) !important;
+}
+.btn-arrowright{
+		 background-image: url( ../images/ArrowRight16.png ) !important;
+}
+.btn-refresh{
+		 background-image: url( ../images/refresh16.png ) !important;
+}
+.btn-tree{
+		 background-image: url( ../images/view_tree_12.png ) !important;
+}
+.tree_folder{
+		 background-image: url( ../images/TreeFolder.gif ) !important;
+}
+.add_new_doc{
+		 background-image: url( ../images/AddNewDoc14.png ) !important;
+}
+.doc_folder{
+		 background-image: url( ../images/DocFolder16.png ) !important;
+}
+.home{
+		 background-image: url( ../images/home16.png ) !important;
+}
+.documents_stack{
+		 background-image: url( ../images/documents_stack16.png ) !important;
+}
+.folder_tree{
+		 background-image: url( ../images/FolderTree16.png ) !important;
+}
+.document_plus{
+		 background-image: url( ../images/document_plus16.png ) !important;
+}
+.binocular{
+		 background-image: url( ../images/binocular16.png ) !important;
+}
+.binocular-small{
+		 background-image: url( ../images/binocular-small.png ) !important;
+}
+.funnel{
+		 background-image: url( ../images/Funnel16.png ) !important;
+}
+.unfunnel{
+		 background-image: url( ../images/UnFunnel16.png ) !important;
+}
+.btn-firstpage{
+		 background-image: url( ../images/ArrowLeftStop16.png ) !important;
+}
+.btn-prevpage{
+		 background-image: url( ../images/ArrowLeft16.png ) !important;
+}
+.btn-prevpage-disabled{
+		 background-image: url( ../images/ArrowLeftDisabled16.png ) !important;
+}
+.btn-nextpage{
+		 background-image: url( ../images/ArrowRight16.png ) !important;
+}
+.btn-nextpage-disabled{
+		 background-image: url( ../images/ArrowRightDisabled16.png ) !important;
+}
+.btn-lastpage{
+		 background-image: url( ../images/ArrowRightStop16.png ) !important;
+}
+.documentPDF{
+		 background-image: url( ../images/DocumentPdf16.png ) !important;
+}
+.btn_lock{
+	 background-image: url( ../images/lock16.png ) !important;
+}
+.btn_lock-minus	{
+	 background-image: url( ../images/lock_minus16.png ) !important;
+}
+.btn_lock-plus	{
+	 background-image: url( ../images/lock_plus16.png ) !important;
+}
+.btn_unlock{
+	 background-image: url( ../images/unlock16.png ) !important;
+}
+.btn_clone{
+	 background-image: url( ../images/DocumentCopy14.png ) !important;
+}
+.btn_stamp{
+	 background-image: url( ../images/Stamp14.png ) !important;
+}
+.btn_users{
+	 background-image: url( ../images/users14.png ) !important;
+}
+.btn_map{
+	 background-image: url( ../images/map16.png ) !important;
+}
+.pictures_download{
+	 background-image: url( ../images/pictures16.png ) !important;
+}
+.document_arrow{
+	 background-image: url( ../images/document_arrow16.png ) !important;
+}
+.chaine-plus{
+	 background-image: url( ../images/chaine_plus16.png ) !important;
+}
+.chaine_info{
+	 background-image: url( ../images/chaine_info16.png ) !important;
+}
+.chaine{
+	 background-image: url( ../images/chaine16.png ) !important;
+}
+.unchaine{
+	 background-image: url( ../images/unchaine16.png ) !important;
+}
+.question-white{
+	 background-image: url( ../images/question-white16.png ) !important;
+}
+.tick{
+	 background-image: url( ../images/tick16.png ) !important;
+}
+.cross{
+	 background-image: url( ../images/cross-script16.png ) !important;
+}
+.mail{
+	 background-image: url( ../images/mail16.png ) !important;
+}
+.mail-plus{
+	 background-image: url( ../images/mail_plus16.png ) !important;
+}
+.mail-receive{
+	 background-image: url( ../images/mail_receive16.png ) !important;
+}
+.mail-receive-small{
+	 background-image: url( ../images/mail_receive14.png ) !important;
+}
+.mail-send{
+	 background-image: url( ../images/mail_send16.png ) !important;
+}
+.clip{
+	 background-image: url( ../images/clip16.png ) !important;
+}
+.btn-disk{
+	 background-image: url( ../images/disk16.png ) !important;
+}
+.btn-eraser{
+	 background-image: url( ../images/eraser16.png ) !important;
+}
+.infocard{
+	 background-image: url( ../images/get_info16.png ) !important;
+}
+.plus{
+	 background-image: url( ../images/plus16.png ) !important;
+}
+.minus{
+	 background-image: url( ../images/minus16.png ) !important;
+}
+.btn-scaner{
+	 background-image: url( ../images/scaner16.png ) !important;
+}
+.folder_database{
+background-image: url( ../images/folder_database16.png ) !important;
+}
+.server_database{
+background-image: url( ../images/server_database16.png ) !important;
+}
+.server_database32{
+background-image: url( ../images/server_database32.png ) !important;
+}
+.database{
+background-image: url( ../images/database16.png ) !important;
+}
+.folder_table{
+background-image: url( ../images/folder_table16.png ) !important;
+}
+.folder_view{
+background-image: url( ../images/folder_view16.png ) !important;
+}
+.folder_procedure{
+background-image: url( ../images/folder_procedure16.png ) !important;
+}
+.folder_trigger{
+background-image: url( ../images/folder_trigger16.png ) !important;
+}
+.folder_function{
+background-image: url( ../images/folder_function16.png ) !important;
+}
+.add_connection{
+background-image: url( ../images/add_connection16.png ) !important;
+}
+.add_connection_large{
+background-image: url( ../images/add_connection32.png ) !important;
+}
+.add_database{
+background-image: url( ../images/database_add16.png ) !important;
+}
+.add_database_large{
+background-image: url( ../images/database_add32.png ) !important;
+}
+.new_database_object_large{
+background-image: url( ../images/new_object32.png ) !important;
+}
+.new_database_object{
+background-image: url( ../images/new_object16.png ) !important;
+}
+.dolphin{
+background-image: url( ../images/dolphin32.png ) !important;
+}
+.export_large{
+background-image: url( ../images/export32.png ) !important;
+}
+.export{
+background-image: url( ../images/export16.png ) !important;
+}
+.import_large{
+background-image: url( ../images/import32.png ) !important;
+}
+.import{
+background-image: url( ../images/import16.png ) !important;
+}
+.dbbackup_large{
+background-image: url( ../images/dbbackup32.png ) !important;
+}
+.dbbackup{
+background-image: url( ../images/dbbackup16.png ) !important;
+}
+.dbrestore_large{
+background-image: url( ../images/dbrestore32.png ) !important;
+}
+.dbrestore{
+background-image: url( ../images/dbrestore16.png ) !important;
+}
+.dbcompare_large{
+background-image: url( ../images/dbcompare32.png ) !important;
+}
+.security_large{
+background-image: url( ../images/security_lock32.png ) !important;
+}
+.security{
+background-image: url( ../images/security_lock16.png ) !important;
+}
+.sql_large{
+background-image: url( ../images/SQL32.png ) !important;
+}
+.save_large{
+background-image: url( ../images/save32.png ) !important;
+}
+.save_all_large{
+background-image: url( ../images/save_all32.png ) !important;
+}
+.function{
+background-image: url( ../images/function16.png ) !important;
+}
+.UDF{
+background-image: url( ../images/UDF16.png ) !important;
+}
+.trigger{
+background-image: url( ../images/trigger16.png ) !important;
+}
+.procedure{
+background-image: url( ../images/procedure16.png ) !important;
+}
+.table{
+background-image: url( ../images/table16.png ) !important;
+}
+.view{
+background-image: url( ../images/view16.png ) !important;
+}
+.column{
+background-image: url( ../images/table_column16.png ) !important;
+}
+.key{
+background-image: url( ../images/key16.png ) !important;
+}
+.gray_key{
+background-image: url( ../images/gray_key16.png ) !important;
+}
+.index{
+background-image: url( ../images/index16.png ) !important;
+}
+.btn3dot_small{
+background-image: url( ../images/btn3dot_small.png ) !important;
+}
+.appendField{
+background-image: url( ../images/appendColumn16.png ) !important;
+}
+.insertField{
+background-image: url( ../images/insertColumn16.png ) !important;
+}
+.cloneField{
+background-image: url( ../images/cloneColumn16.png ) !important;
+}
+.arrow_up{
+background-image: url( ../images/arrow_up16.png ) !important;
+}
+.arrow_down{
+background-image: url( ../images/arrow_down16.png ) !important;
+}
+.configure{
+background-image: url( ../images/configure16.png ) !important;
+}
+.configure_large{
+background-image: url( ../images/configure32.png ) !important;
+}
+.server_key{
+background-image: url( ../images/server_key16.png ) !important;
+}
+.empty{
+background-image: url( ../images/empty16.png ) !important;
+}
+.connect{
+background-image: url( ../images/connect16.png ) !important;
+}
+.disconnect{
+background-image: url( ../images/disconnect16.png ) !important;
+}
+.change_connect{
+background-image: url( ../images/plug_pencil16.png ) !important;
+}
+.change_database{
+background-image: url( ../images/database_pencil16.png ) !important;
+}
+.change_table{
+background-image: url( ../images/table_pencil16.png ) !important;
+}
+.delete_table{
+background-image: url( ../images/delete_table16.png ) !important;
+}
+.clear_table{
+background-image: url( ../images/clear_table16.png ) !important;
+}
+.loading{
+background-image: url( ../images/loading16.gif ) !important;
+}
+

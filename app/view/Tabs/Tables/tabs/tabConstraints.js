@@ -1,0 +1,1 @@
+Ext.define('MDBE.view.Tabs.Tables.tabs.tabConstraints', {	extend: 'Ext.panel.Panel',    alias: 'widget.tabletabconstraints',          initComponent: function() {		this.closable = true;		this.title = 'Constraints';		this.html = 'Table tab Constraints';				        this.callParent(arguments);    }});

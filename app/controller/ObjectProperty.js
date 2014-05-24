@@ -1,0 +1,1 @@
+Ext.define('MDBE.controller.ObjectProperty', {    extend: 'Ext.app.Controller',	views: ['MDBE.view.ObjectProperty'],	    init: function() {        this.control({			'objectproperty': {				beforeedit: this.onObjectPropertyEdit			}        });    },                onObjectPropertyEdit: function(e){        return false;    }    });
