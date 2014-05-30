@@ -1,6 +1,6 @@
 <?php
 
-class Routing{
+class Routing {
     function __construct($routes) {
         $this->routes = $routes;
     }

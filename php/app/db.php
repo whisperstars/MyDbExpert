@@ -2,10 +2,12 @@
 
 class db {
     static public function show() {
-        echo "db::show";
+        return 'db::show';
     }
 
     static public function create($data) {
-        return "created db `" . $data->name . "`";
+        global $user;
+
+        return 'created db `' . $data->name . '` for user ' . $user->getLogin();
     }
 }
