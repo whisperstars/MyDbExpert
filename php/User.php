@@ -13,24 +13,32 @@ class User {
 
     private function __wakeup() {}
 
-    public static function instance($user) {
+    public static function instance($auth) {
         if (!isset(self::$_instance)) {
             global $conf;
+            global $session;
 
             $className = __CLASS__;
             self::$_instance = new $className;
 
-            self::$host = $user->host;
-            self::$login = $user->login;
+            self::$host = $auth->host;
+            self::$login = $auth->login;
 
-            if(isset($conf) && isset($conf['users']) && isset($conf['users'][self::$host + '@' + self::$login])) {
-                self::$pass = $conf[self::$host + '@' + self::$login]['pass'];
+            $db_host = self::$host . '@' . self::$login;
+
+            if(isset($conf) && isset($conf['users']) && isset($conf['users'][$db_host])) {
+                self::$pass = $conf[$db_host]['pass'];
             }
-            elseif(isset($_SESSION) && isset($_SESSION[self::$host + '@' + self::$login]['pass'])) {
-                self::$pass = $_SESSION[self::$host + '@' + self::$login]['pass'];
+            elseif($session->key_exists($db_host)) {
+                self::$pass = $session->get($db_host)['pass'];
             }
-            elseif(property_exists($user, 'pass')) {
-                self::$pass = $user->pass;
+            elseif(property_exists($auth, 'pass')) {
+                self::$pass = $auth->pass;
+
+                $session->set($db_host, array('pass' => self::$pass));
+            }
+            else {
+                throw new Exception("There is no password", 1);
             }
         }
 

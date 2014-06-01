@@ -2,6 +2,6 @@
 
 class main {
     static public function index() {
-        echo "main";
+        return "main";
     }
 }

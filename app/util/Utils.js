@@ -1,6 +1,46 @@
 Ext.define('MDBE.util.Utils', {
 	singleton: true,
 
+	loadStory: function(story, parameters, callback, scope) {
+		Ext.Ajax.request({
+			url: 'php/index.php',
+			params: parameters,
+			success: function(response) { 
+				var data = Ext.JSON.decode(response.responseText);
+				if(!data.error.exist_error) {
+					if(!data.auth.need_auth || (data.auth.need_auth && data.auth.need_auth)) {
+						story.loadData(data.data);
+						console.log(story);
+					}
+					else {
+						Ext.create('Ext.window.Window', {
+							title: 'MySQL Login ',
+							iconCls: 'server_key',
+							layout: 'fit',
+							closable: false, 
+							width: 300,
+							modal: true,
+							items: [{
+								xtype: 'formlogin',
+								connectionData: connectionData,
+								node: node
+							}],
+							listeners: {
+								show: function(w){ 
+									w.down('form').getForm().findField('User').focus(true,100);
+								}
+							}
+						}).show();
+					}
+				}
+				else {
+					alert(data.error.error_message);
+				}
+			},
+			method: "POST"
+		});
+	},
+
 	checkDBConnect: function(connectionData, options){
 		Ext.Ajax.request({ //�������� ������
 			url: 'php/index.php',
